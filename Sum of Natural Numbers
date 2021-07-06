@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+#include<iostream>
+
+using namespace std;
+
+int calculation(int number){
+    int sum = 0 ;
+    sum = number * (number + 1)/2;
+    return sum;
+}
+
+int32_t main()
+{
+    //Use them for faster input...
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    //Write your code here...
+    int number;
+    cin>>number;
+    calculation(number);
+    cout<<calculation(number)<<"\n";
+    return 0;
+}
